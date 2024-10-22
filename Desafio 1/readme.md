@@ -75,11 +75,17 @@ aqui está o código
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + classificacaoDoHeroi);
 
 **Print 1**
-[]()
+
+<div align="center">
+    <img src="https://github.com/Br8Mil/gft_6_logica_de_programacao/blob/main/Desafio%201/1.png" alt="print 1" width="800"/>
+</div>
 
 **Print 2**
-[]()
+
+<div align="center">
+    <img src="https://github.com/Br8Mil/gft_6_logica_de_programacao/blob/main/Desafio%201/2.png" alt="print 2" width="800"/>
+</div>
 
 ## **Ferramentas Usadas:**
 
-[Play Code - web](https://playcode.io/new)
+[Play Code - Web](https://playcode.io/new)
