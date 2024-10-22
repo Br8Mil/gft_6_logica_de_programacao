@@ -3,7 +3,7 @@
 <img src="https://hermes.digitalinnovation.one/assets/diome/logo-full.svg" alt="logotipo da plataforma dio.me" width="100"/>
 
 <div align="center">
-    <img src="https://assets.dio.me/0JQqr8ZwT-UxlnECL_OiT33rG3DrDD_Lc1BCMsn_iso/f:webp/h:120/q:80/L3RyYWNrcy8zZjAzZTNmNS03Nzk1LTQ1NzktYTI1YS0wZTk1ODdlMGRmNzcucG5n" alt=”logotipo do bootcamp” width="120"/>
+    <img src="https://assets.dio.me/0JQqr8ZwT-UxlnECL_OiT33rG3DrDD_Lc1BCMsn_iso/f:webp/h:120/q:80/L3RyYWNrcy8zZjAzZTNmNS03Nzk1LTQ1NzktYTI1YS0wZTk1ODdlMGRmNzcucG5n" alt="logotipo do bootcamp" width="120"/>
 </div>
 
 ## Texto de apresentação da home do BootCamp
