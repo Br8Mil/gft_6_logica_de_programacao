@@ -48,19 +48,13 @@ aqui está o código
 **Print 1**
 
 <div align="center">
-    <img src="" alt="print 1" width="100"/>
+    <img src="https://github.com/Br8Mil/gft_6_logica_de_programacao/blob/main/Desafio%202/1.png" alt="print 1" width="800"/>
 </div>
 
 **Print 2**
 
 <div align="center">
-    <img src="" alt="print 1" width="100"/>
-</div>
-
-**Print 3**
-
-<div align="center">
-    <img src="" alt="print 1" width="100"/>
+    <img src="https://github.com/Br8Mil/gft_6_logica_de_programacao/blob/main/Desafio%202/2.png" alt="print 1" width="800"/>
 </div>
 
 ## **Ferramentas Usadas:**
