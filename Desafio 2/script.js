@@ -1,9 +1,8 @@
 const nomeDoHeroi = "Starius";
+let numerosDeLutasDoHeroi = 0;
 
 function classificarHeroi(numerosDeLutas) {
-    if (numerosDeLutas === 0) {
-        return "Sem lutas";
-    } else if (numerosDeLutas <= 10) {
+    if (numerosDeLutas <= 10) {
         return "Ferro";
     } else if (numerosDeLutas <= 20) {
         return "Bronze";
@@ -20,7 +19,10 @@ function classificarHeroi(numerosDeLutas) {
     }
 }
 
-let numerosDeLutasDoHeroi = 0;
+while (numerosDeLutasDoHeroi <= 0) {
+    numerosDeLutasDoHeroi = parseInt(prompt("Digite um número diferente de zero para ver em que nível o herói está:"));
+}
+
 let classificacaoDoHeroi = classificarHeroi(numerosDeLutasDoHeroi);
 
-console.log(`O Herói ${nomeDoHeroi} tem de saldo ${numerosDeLutasDoHeroi} lutas, e está no nível de ${classificacaoDoHeroi}.`);
+console.log(`O Herói ${nomeDoHeroi} tem de saldo ${numerosDeLutasDoHeroi} lutas, e está no nível de ${classificacaoDoHeroi}.`)
