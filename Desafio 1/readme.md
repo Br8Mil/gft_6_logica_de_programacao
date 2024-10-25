@@ -41,49 +41,50 @@ Se XP for maior ou igual a 10.001 = Radiante
 
 O código foi executado no [Play Code](https://playcode.io/new), você pode testar o código por lá, pois lá você não precisa instalar nada na sua máquina para executar os scripts (tente mudar o valor de xpDoHeroi por exemplo).
 
-aqui está o código
+Veja o código abaixo ou o arquivo script.js
 
-    const nomeDoHeroi = "Starius";
-    let xpDoHeroi = 0;
-    let classificacaoDoHeroi = "";
+```javascript
+const nomeDoHeroi = "Starius";
+let xpDoHeroi = 0;
+let classificacaoDoHeroi = "";
 
-    if (xpDoHeroi <= 1000) {
-        classificacaoDoHeroi = "Ferro";
+while (xpDoHeroi === 0) {
+    xpDoHeroi = parseInt(prompt("Digite um número diferente de zero para ver em que nível o herói está:"));
+}
 
-    } else if (xpDoHeroi <= 2000) {
-        classificacaoDoHeroi = "Bronze";
+if (xpDoHeroi <= 1000) {
+	classificacaoDoHeroi = "Ferro";
+} else if (xpDoHeroi <= 2000) {
+    classificacaoDoHeroi = "Bronze";
+} else if (xpDoHeroi <= 5000) {
+    classificacaoDoHeroi = "Prata";
+} else if (xpDoHeroi <= 7000) {
+    classificacaoDoHeroi = "Ouro";
+} else if (xpDoHeroi <= 8000) {
+    classificacaoDoHeroi = "Platina";
+} else if (xpDoHeroi <= 9000) {
+    classificacaoDoHeroi = "Ascendente";
+} else if (xpDoHeroi <= 10000) {
+    classificacaoDoHeroi = "Imortal";
+} else if (xpDoHeroi >= 10001) {
+    classificacaoDoHeroi = "Radiante";
+}
 
-    } else if (xpDoHeroi <= 5000) {
-        classificacaoDoHeroi = "Prata";
+console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + classificacaoDoHeroi);
+```
 
-    } else if (xpDoHeroi <= 7000) {
-        classificacaoDoHeroi = "Ouro";
-
-    } else if (xpDoHeroi <= 8000) {
-        classificacaoDoHeroi = "Platina";
-
-    } else if (xpDoHeroi <= 9000) {
-        classificacaoDoHeroi = "Ascendente";
-
-    } else if (xpDoHeroi <= 10000) {
-        classificacaoDoHeroi = "Imortal";
-
-    } else if (xpDoHeroi >= 10001) {
-        classificacaoDoHeroi = "Radiante";
-    }
-
-    console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + classificacaoDoHeroi);
+veja os prints do resultado abaixo.
 
 **Print 1**
 
 <div align="center">
-    <img src="https://github.com/Br8Mil/gft_6_logica_de_programacao/blob/main/Desafio%201/1.png" alt="print 1" width="800"/>
+    <img src="1.png" alt="print 1" width="800"/>
 </div>
 
 **Print 2**
 
 <div align="center">
-    <img src="https://github.com/Br8Mil/gft_6_logica_de_programacao/blob/main/Desafio%201/2.png" alt="print 2" width="800"/>
+    <img src="2.png" alt="print 2" width="700"/>
 </div>
 
 ## **Ferramentas Usadas:**

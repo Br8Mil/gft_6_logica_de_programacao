@@ -41,20 +41,51 @@ Se vitórias for maior ou igual a 101 = Imortal
 
 O código foi executado no [Play Code](https://playcode.io/new), você pode testar o código por lá, pois lá você não precisa instalar nada na sua máquina para executar os scripts (tente mudar o valor de numerosDeLutasDoHeroi por exemplo).
 
-aqui está o código
+Veja o código abaixo ou o arquivo script.js
 
+```javascript
+const nomeDoHeroi = "Starius";
+let numerosDeLutasDoHeroi = 0;
 
+function classificarHeroi(numerosDeLutas) {
+    if (numerosDeLutas <= 10) {
+        return "Ferro";
+    } else if (numerosDeLutas <= 20) {
+        return "Bronze";
+    } else if (numerosDeLutas <= 50) {
+        return "Prata";
+    } else if (numerosDeLutas <= 80) {
+        return "Ouro";
+    } else if (numerosDeLutas <= 90) {
+        return "Diamante";
+    } else if (numerosDeLutas <= 100) {
+        return "Lendário";
+    } else {
+        return "Imortal";
+    }
+}
+
+while (numerosDeLutasDoHeroi <= 0) {
+    numerosDeLutasDoHeroi = parseInt(prompt("Digite um número diferente de zero para ver em que nível o herói está:"));
+}
+
+let classificacaoDoHeroi = classificarHeroi(numerosDeLutasDoHeroi);
+
+console.log(`O Herói ${nomeDoHeroi} tem de saldo ${numerosDeLutasDoHeroi} lutas, e está no nível de ${classificacaoDoHeroi}.`)
+```
+
+veja os prints do resultado abaixo.
 
 **Print 1**
 
 <div align="center">
-    <img src="https://github.com/Br8Mil/gft_6_logica_de_programacao/blob/main/Desafio%202/1.png" alt="print 1" width="800"/>
+    <img src="1.png" alt="print 1" width="800"/>
 </div>
 
 **Print 2**
 
 <div align="center">
-    <img src="https://github.com/Br8Mil/gft_6_logica_de_programacao/blob/main/Desafio%202/2.png" alt="print 1" width="800"/>
+    <img src="2.png" alt="print 1" width="800"/>
 </div>
 
 ## **Ferramentas Usadas:**
